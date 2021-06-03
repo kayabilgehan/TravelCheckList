@@ -13,6 +13,12 @@
 		636C23AE26693D4900933A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636C23AD26693D4900933A00 /* Assets.xcassets */; };
 		636C23B126693D4900933A00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636C23B026693D4900933A00 /* Preview Assets.xcassets */; };
 		636C23B426693D4900933A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636C23B226693D4900933A00 /* LaunchScreen.storyboard */; };
+		636C23BC2669410A00933A00 /* TravelCheckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C23BB2669410A00933A00 /* TravelCheckModel.swift */; };
+		636C23BE266941A800933A00 /* TravelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C23BD266941A800933A00 /* TravelListView.swift */; };
+		636C23C0266977CA00933A00 /* TravelDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C23BF266977CA00933A00 /* TravelDetailView.swift */; };
+		636C23C226697A9400933A00 /* SeenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C23C126697A9400933A00 /* SeenButton.swift */; };
+		636C23C426697C1900933A00 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C23C326697C1900933A00 /* FirstView.swift */; };
+		636C23C626697C2500933A00 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636C23C526697C2500933A00 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		636C23B026693D4900933A00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		636C23B326693D4900933A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		636C23B526693D4900933A00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636C23BB2669410A00933A00 /* TravelCheckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCheckModel.swift; sourceTree = "<group>"; };
+		636C23BD266941A800933A00 /* TravelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelListView.swift; sourceTree = "<group>"; };
+		636C23BF266977CA00933A00 /* TravelDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailView.swift; sourceTree = "<group>"; };
+		636C23C126697A9400933A00 /* SeenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenButton.swift; sourceTree = "<group>"; };
+		636C23C326697C1900933A00 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		636C23C526697C2500933A00 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				636C23B226693D4900933A00 /* LaunchScreen.storyboard */,
 				636C23B526693D4900933A00 /* Info.plist */,
 				636C23AF26693D4900933A00 /* Preview Content */,
+				636C23BB2669410A00933A00 /* TravelCheckModel.swift */,
+				636C23BD266941A800933A00 /* TravelListView.swift */,
+				636C23BF266977CA00933A00 /* TravelDetailView.swift */,
+				636C23C126697A9400933A00 /* SeenButton.swift */,
+				636C23C326697C1900933A00 /* FirstView.swift */,
+				636C23C526697C2500933A00 /* SecondView.swift */,
 			);
 			path = TravelCheckList;
 			sourceTree = "<group>";
@@ -147,6 +165,12 @@
 			files = (
 				636C23A826693D4800933A00 /* AppDelegate.swift in Sources */,
 				636C23AA26693D4800933A00 /* SceneDelegate.swift in Sources */,
+				636C23BC2669410A00933A00 /* TravelCheckModel.swift in Sources */,
+				636C23C626697C2500933A00 /* SecondView.swift in Sources */,
+				636C23C226697A9400933A00 /* SeenButton.swift in Sources */,
+				636C23C0266977CA00933A00 /* TravelDetailView.swift in Sources */,
+				636C23C426697C1900933A00 /* FirstView.swift in Sources */,
+				636C23BE266941A800933A00 /* TravelListView.swift in Sources */,
 				636C23AC26693D4800933A00 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

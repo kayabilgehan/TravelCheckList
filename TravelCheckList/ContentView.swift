@@ -1,16 +1,21 @@
-//
-//  ContentView.swift
-//  TravelCheckList
-//
-//  Created by Bilgehan KAYA on 3.06.2021.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var characterName = "Luke Skywalker"
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Text(characterName)
+                .padding()
+            Button(action: {
+                self.characterName = "Yoda"
+            }) {
+                Text("Change Character")
+            }
+            
+            TextField("Write Here!", text: $characterName)
+        }
     }
 }
 
